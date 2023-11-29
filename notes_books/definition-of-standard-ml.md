@@ -93,9 +93,11 @@ ML consists of:
 The Core provides many phrase classes, for programming convenience. But about half of these classes are derived forms, whose meaning can be given translation into the other half which we call the **Bare** language. Here the sections on the Core treat the Bare language; derived forms are treated in the appendix. The appendix also contains some derived forms for modules.
 
 Semantics is presented in a form known as Natural Semantics. It consists of a set of rules allowing **sentences** of the form
+
 $$
 A \vdash \text{phrase} \implies A'
 $$
+
 to be inferred, where $A$ is often a basis (static or dynamic) and $A'$ a semantic object. In the static semantics this is often a type and in the dynamic semantics this is often a value.[^2]
 
 > Against the background provided by $A$, the phrase $\text{phrase}$ elaborates—or evaluates—to the object $A'$.
